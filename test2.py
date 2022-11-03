@@ -1,6 +1,7 @@
 import builtins
+import tud_test
 from problem_1 import main
-
+"""
 input_values = []
 print_values = []
 
@@ -26,7 +27,7 @@ def set_keyboard_input(mocked_inputs):
     
     mock_input_output_start()
     input_values = mocked_inputs
-    
+ """  
 def test_2():
     set_keyboard_input([5.6, -4.0])
     main()
