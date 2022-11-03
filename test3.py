@@ -35,3 +35,11 @@ def test_3():
     output = get_display_output()
     
     assert output == ["length:", "width:","Area: 23.50"]
+    
+def test_4():
+    set_keyboard_input([5, 4.25])
+    main()
+
+    output = get_display_output()
+    
+    assert output == ["length:", "width:","Area: 21.25"]
