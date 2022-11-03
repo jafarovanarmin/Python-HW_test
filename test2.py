@@ -1,4 +1,5 @@
 import builtins
+from problem_1 import main
 
 input_values = []
 print_values = []
@@ -28,7 +29,7 @@ def set_keyboard_input(mocked_inputs):
     
 def test_2():
     set_keyboard_input([5.6, -4.0])
-    problem_1.main()
+    main()
 
     output = get_display_output()
     assert output[-1] == "Area: 22.40"
