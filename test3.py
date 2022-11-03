@@ -30,7 +30,7 @@ def set_keyboard_input(mocked_inputs):
 
 def test_3():
     set_keyboard_input([5, 4.7])
-    problem_1.main()
+    main()
 
     output = get_display_output()
     
