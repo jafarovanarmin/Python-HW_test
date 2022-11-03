@@ -28,6 +28,16 @@ def set_keyboard_input(mocked_inputs):
     mock_input_output_start()
     input_values = mocked_inputs
 
+def test_2():
+    set_keyboard_input([5, 4.7])
+    main()
+
+    output = get_display_output()
+    
+    assert output[3][:5] == "Area:"
+    
+    
+    
 def test_3():
     set_keyboard_input([5, 4.7])
     main()
