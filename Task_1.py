@@ -2,6 +2,6 @@ def main():
     """
     Kodunuzu buraya yazin.
     """
-    pass
+    print(5)
 if __name__ == "__main__":
     main()
